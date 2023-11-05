@@ -1,6 +1,6 @@
-WBUI2 Changelog
+## WBUI2 Changelog
 
-v1.5
+### v1.5
 - Added colored text
 	- <TextStyle.Red>Red text</>
 	- Available colors: Red, Green, Blue, Yellow, Orange, Violet, Black, White
@@ -12,12 +12,12 @@ v1.5
 - Improved download background image logic
 - On update via `cheat scriptcommand WBUI2 update` the UI shouldnt open the for the players anymore.
 
-v1.4
+### v1.4
 - Disabled INI Settings "UseIni=" and "SettingsJson=" because INI parsing a Json was not possible in the first place.
 - Fixed stuck UI if you switched a tab and hit "ESC"
 - Added more detailed logging to investigate request issues
 
-v1.3
+### v1.3
 - Readded custom image functionality
 - Changed "lorem ipsum" text with a more informative text
 - adjusted background opacity for the other styles so it matches style "1"
@@ -25,15 +25,15 @@ v1.3
 - added new JSON setting:
 -- DisableIconText: true/false (Default:false) - If true the text "F1 for Info" will not be displayed.
 
-v1.2
+### v1.2
 - Disabled downloading of the images (will hopefully be re-implemented later)
 
 
-v1.1
+### v1.1
 - Added Logging for the INI settings
 - Fixed defaults beeing not set
 - Fixed OpenOnStartOnlyNewPlayers not working
 
 
-v1
+### v1.0
 Initial Automatic Mod Upload
