@@ -1,3 +1,5 @@
+WBUI2 Changelog
+
 v1.5
 - Added colored text
 	- <TextStyle.Red>Red text</>
