@@ -1,5 +1,10 @@
 ## WBUI2 Changelog
 
+### v1.6
+- Fixed spacing between text
+- removed obsolet code
+- added "Check your Browser" notification if you clicked on a link button
+
 ### v1.5
 - Added colored text
 	- <TextStyle.Red>Red text</>
