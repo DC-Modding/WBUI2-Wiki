@@ -1,0 +1,86 @@
+{
+  "WBUI2": {
+    "settings": {
+        "OpenButton": 0,
+        "HideIcon": false,
+        "HideIconAfter": 60,
+        "IconURL": "https://i.imgur.com/OZ6xOjY.png",
+        "DisableIconText": false,
+        "IconPosition": 0,
+        "IconTextColor": 0,
+        "OpenOnStart": true,
+        "OpenOnStartOnlyNewPlayers": true,
+        "UpdateInterval": 12
+      },
+    "tabs": [
+      {
+        "tab1": {
+          "layout": 1,
+          "buttontext": "<TextStyle.Red>1 Box layout</>",
+          "title1": "Welcome to WBUI2!",
+          "text1": "Your text could be here.\n\nBTW, you can add as many tabs/links as you want, just follow the syntax... Until it doesnt fit anymore\n\nCheckout the available colors and the syntax you can use to colorize the text for the buttons, titles and general text:\n\n<TextStyle.Red><TextStyle.Red>Red Text</></>\n<TextStyle.Green><TextStyle.Green>Green Text</></>\n<TextStyle.Blue><TextStyle.Blue>Blue Text</></>\n<TextStyle.Yellow><TextStyle.Yellow>Yellow Text</></>\n<TextStyle.Orange><TextStyle.Orange>Orange Text</></>\n<TextStyle.Violet><TextStyle.Violet>Violet Text</></>\n<TextStyle.White><TextStyle.White>White Text</></>\n<TextStyle.Black><TextStyle.Black>Black Text</></> < Yes its Black Text on a Black background\n",
+          "imageurl": "https://i.imgur.com/mGt3cAF.png"
+        }
+      },
+      {
+        "tab2": {
+          "layout": 2,
+          "buttontext": "2 Box layout",
+          "title1": "Left title",
+          "title2": "Right title",
+          "text1": "This text goes into the left box",
+          "text2": "This text goes into the right box",
+          "imageurl": "https://i.imgur.com/mGt3cAF.png"
+        }
+      },
+      {
+        "tab3": {
+          "layout": 3,
+          "buttontext": "3 Box layout",
+          "title1": "Left title",
+          "title2": "Top right title",
+          "title3": "Bottom left title",
+          "text1": "This text goes into the left box",
+          "text2": "This text goes into the top right box",
+          "text3": "This text goes into the bottom right box",
+          "imageurl": "https://i.imgur.com/mGt3cAF.png"
+        }
+      },
+      {
+        "tab4": {
+          "layout": 4,
+          "buttontext": "4 Box layout",
+          "title1": "Top left title",
+          "title2": "<TextStyle.Green>Top right title</>",
+          "title3": "<TextStyle.Blue>bottom left title</>",
+          "title4": "<TextStyle.Yellow>bottom right title</>",
+          "text1": "<TextStyle.Orange>This text goes into the top left box</>",
+          "text2": "<TextStyle.Violet>This text goes into the top right box</>",
+          "text3": "<TextStyle.Red>This text goes into the bottom left box</>",
+          "text4": "<TextStyle.White>This text goes into the bottom right box</>",
+          "imageurl": "https://i.imgur.com/mGt3cAF.png"
+        }
+      }
+    ],
+    "links": [
+      {
+        "link1": {
+          "text": "Link to Wiki",
+          "url": "https://github.com/DC-Modding/WBUI2-Wiki/wiki"
+        }
+      },
+      {
+        "link2": {
+          "text": "Link to discord",
+          "url": "https://discord.com/invite/K7NyrTV"
+        }
+      },
+      {
+        "link3": {
+          "text": "Link to google",
+          "url": "https://google.com"
+        }
+      }
+    ]
+  }
+}
