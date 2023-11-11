@@ -1,5 +1,10 @@
 ## WBUI2 Changelog
 
+### v1.8
+
+- Fixed mouse cursor beeing locked within the window
+- Fixed clientside infinite loop if server could not retrieve a valid JSON
+
 ### v1.7
 
 - Scrolling through the UI shouldnt affect the player (switching between FPV/TPV) anymore
