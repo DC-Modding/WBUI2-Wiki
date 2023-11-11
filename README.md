@@ -7,8 +7,8 @@
 -- cheat Scriptcommand WBUI2 debug
 - Changed the Textstyles to a bigger fontsize
 - You can use ARKML now to colorize the text  
--- <RichColor Color=\"1,0,0,1\">Red Text</>  
--- you HAVE to unescape the double quotes with a \  
+	- <RichColor Color=\"1,0,0,1\">Red Text</>  
+	- you HAVE to unescape the double quotes with a \  
 
 ### v1.6
 
