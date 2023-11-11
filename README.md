@@ -3,6 +3,12 @@
 ### v1.7
 
 - Scrolling through the UI shouldnt affect the player (switching between FPV/TPV) anymore
+- Added new Scriptcommand to toggle DebugMode
+-- cheat Scriptcommand WBUI2 debug
+- Changed the Textstyles to a bigger fontsize
+- You can use ARKML now to colorize the text
+-- <RichColor Color=\"1,0,0,1\">Red Text</>
+-- you HAVE to unescape the double quotes with a \
 
 ### v1.6
 
