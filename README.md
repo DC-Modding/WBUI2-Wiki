@@ -1,5 +1,14 @@
 ## WBUI2 Changelog
 
+### v1.10
+
+- Improved buff logic
+- Added controller support
+- UI can now be opened via radial menue
+- Added Admin menue to set a `JsonURL` and enable `Debug-Mode`
+	- The URL in the Admin menue overrides the URL in the INI
+	- If you want to go back to the URL set in INI, click in the textbox of the Admin menue and save it without entering anything
+
 ### v1.9
 
 - Removed icon background. You can leave the `iconURL` empty now if you wish to only have the text visible
