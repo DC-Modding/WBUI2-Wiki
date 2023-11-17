@@ -1,5 +1,11 @@
 ## WBUI2 Changelog
 
+### v1.9
+
+- Removed icon background. You can leave the `iconURL` empty now if you wish to only have the text visible
+- Changed Buff start logic
+- Added Version-Check
+
 ### v1.8
 
 - Fixed mouse cursor beeing locked within the window
