@@ -5,9 +5,10 @@
 - Improved buff logic
 - Added controller support
 - UI can now be opened via radial menue
+	- This is only enabled if you're playing on a console or you play actively with a gamepad
 - Added Admin menue to set a `JsonURL` and enable `Debug-Mode`
 	- The URL in the Admin menue overrides the URL in the INI
-	- If you want to go back to the URL set in INI, click in the textbox of the Admin menue and save it without entering anything
+	- If you want to go back to the URL set in INI, click in the textbox of the Admin menue, delete everything in it and save
 
 ### v1.9
 
