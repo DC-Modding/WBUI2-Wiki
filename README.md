@@ -1,5 +1,9 @@
 ## WBUI2 Changelog
 
+### v1.11
+
+- Adjusted the UI so the background image is now truly a 16:9 ratio
+
 ### v1.10
 
 - Improved buff logic
