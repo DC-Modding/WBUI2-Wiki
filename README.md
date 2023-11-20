@@ -2,7 +2,10 @@
 
 ### v1.11
 
+- Fixed that the UI now scales properly with the screensize
 - Adjusted the UI so the background image is now truly a 16:9 ratio
+- Added an `Update` button to the Admin menue which triggers an update like `cheat scriptcommand WBUI2 update`
+- Fixed `UpdateInterval` only running once
 
 ### v1.10
 
