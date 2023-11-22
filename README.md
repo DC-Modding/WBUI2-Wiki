@@ -1,5 +1,9 @@
 ## WBUI2 Changelog
 
+### v1.12
+
+- Cross-Platform Release
+
 ### v1.11
 
 - Fixed that the UI now scales properly with the screensize
