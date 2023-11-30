@@ -1,5 +1,10 @@
 ## WBUI2 Changelog
 
+### v1.13
+
+- Fixed that the mod wont work in singleplayer (probably)
+- Fixed playerview going wild after closing the UI when using controllers
+
 ### v1.12
 
 - Cross-Platform Release
