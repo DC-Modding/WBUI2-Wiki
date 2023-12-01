@@ -5,6 +5,7 @@
 - Fixed that the mod wont work in singleplayer (probably)
 - Fixed playerview going wild after closing the UI when using controllers
 - Fixed that no icon is displayed if multiple mods/buffs add to the radial menue
+- Info text now shows a "square" or "cross" button on consoles
 
 ### v1.12
 
