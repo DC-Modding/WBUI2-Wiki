@@ -4,6 +4,7 @@
 
 - Fixed that the mod wont work in singleplayer (probably)
 - Fixed playerview going wild after closing the UI when using controllers
+- Fixed that no icon is displayed if multiple mods/buffs add to the radial menue
 
 ### v1.12
 
