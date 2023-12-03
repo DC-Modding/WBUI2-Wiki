@@ -1,5 +1,9 @@
 ## WBUI2 Changelog
 
+### v1.14
+
+- Fixed not beeing able to invite to tribe
+
 ### v1.13
 
 - Fixed that the mod wont work in singleplayer (probably)
