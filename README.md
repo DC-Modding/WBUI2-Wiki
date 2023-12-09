@@ -1,5 +1,11 @@
 ## WBUI2 Changelog
 
+### v1.15
+
+- Added user editable button to open the UI (PC only)
+- Improved Update logic
+- Improved Radial logic
+
 ### v1.14
 
 - Fixed not beeing able to invite to tribe
