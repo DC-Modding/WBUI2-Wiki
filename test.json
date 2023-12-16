@@ -3,7 +3,7 @@
     "settings": {
         "OpenButton": 1,
         "HideIcon": true,
-        "HideIconAfter": 0,
+        "HideIconAfter": 10,
         "IconURL": "",
         "DisableIconText": true,
         "IconPosition": 0,
