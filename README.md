@@ -1,5 +1,10 @@
 ## WBUI2 Changelog
 
+### v1.16
+
+- Fixed that the buttonicon didnt vanish if you set `"HideIconAfter": 0`
+- Fixed showing X instead of square for PS5 players
+
 ### v1.15
 
 - Added user editable button to open the UI (PC only)
