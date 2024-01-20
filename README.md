@@ -1,5 +1,37 @@
 ## WBUI2 Changelog
 
+### v1.17
+
+- Ingame Editing is now available
+- Fixed `HideIconAfter` beeing able to be set to `0` again without showing the icon entirely
+- Added new scriptcommand to remove users custom keybinding
+	- `cheat scriptcommand WBUI2 removekeybind playerid`
+	- Replace playerid with the ID shown in the players implant
+	- The player needs to be online for it to work
+- Added new scriptcommand to send messages to all players or just a specific player
+	- `cheat scriptcommand WBUI2 sendmessage -message="Your message here" -duration=10 -player=implantID/EOS_ID`
+	- The message needs to be within double qoutes `" "`
+	- duration is in seconds
+	- If no player argument was used it sends the message to all players
+- Added an `Additional settings` tab to the admin settings
+	- You can specify a webhook URL (like discord webhooks) to send WBUI2 logs to that webhook
+	- You can set a message of the day which will be displayed to the players
+- New INI-Option
+	- DisableDebugWebhook
+		- If true you opt-out of sending debug info to a discord channel only visible to me
+		- The data is only used for debugging purposes if you request help
+		- The data is stored for maximum 7 days and deleted after that
+		- The data contains the following informations:
+			- Servername
+			- Version of the mod
+			- Value of the "JsonUrl" INI entry
+			- Value of the "JsonUrl" from the ingame AdminUI (if set)
+			- Value of the "UseIngame" checkbox from the ingame AdminUI
+			- Value of the "IconURL" entry of the Json/ingame AdminUI
+			- Error-Message of the Json-Request/Json-Parser
+
+
+
 ### v1.16
 
 - Fixed that the buttonicon didnt vanish if you set `"HideIconAfter": 0`
