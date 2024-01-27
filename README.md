@@ -1,5 +1,18 @@
 ## WBUI2 Changelog
 
+### v1.18
+
+- Added new scriptcommand to set a `Message of the Day`
+	- `cheat scriptcommand WBUI2 setmotd -message="MOTD title\nMOTD message" -duration=15`
+	- The message needs to be within double qoutes `" "`
+	- duration is in seconds
+- If `Use Ingame Settings` is true (checkbox within the Admin Panel) the generated WBUI2 Json will be saved/loaded from a SaveGame now
+	- SaveGame can be found at `\ShooterGame\Saved\SaveGames\WBUI2\Json.sav`
+		- If you open the `Json.sav` with a texteditor you can get the json to use it for your hosted solution like github/rentry etc.
+	- You can copy the `WBUI2` folder to other servers for an easier setup.
+		- BEFORE you paste the folder: check the `Use Ingame Settings` checkbox within the Admin Panel and save
+		- AFTER you pasted the folder via `cheat scriptcommand WBUI2 update` or click the `Update` button within the Admin Panel
+
 ### v1.17
 
 - Ingame Editing is now available
@@ -29,8 +42,6 @@
 			- Value of the "UseIngame" checkbox from the ingame AdminUI
 			- Value of the "IconURL" entry of the Json/ingame AdminUI
 			- Error-Message of the Json-Request/Json-Parser
-
-
 
 ### v1.16
 
