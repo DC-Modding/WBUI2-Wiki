@@ -11,7 +11,7 @@
 		- If you open the `Json.sav` with a texteditor you can get the json to use it for your hosted solution like github/rentry etc.
 	- You can copy the `WBUI2` folder to other servers for an easier setup.
 		- BEFORE you paste the folder: check the `Use Ingame Settings` checkbox within the Admin Panel and save
-		- AFTER you pasted the folder via `cheat scriptcommand WBUI2 update` or click the `Update` button within the Admin Panel
+		- AFTER you pasted the folder via `cheat scriptcommand WBUI2 update`
 
 ### v1.17
 
