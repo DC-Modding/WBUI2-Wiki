@@ -1,5 +1,12 @@
 ## WBUI2 Changelog
 
+### v1.19
+
+- Minor logging tweaks
+- Fixed `OpenOnStartOnlyNewPlayers` resetting with each server restart
+- Added new scriptcommand to clear the `OpenOnStart` playerlist
+	- `cheat scriptcommand WBUI2 clearplayers`
+
 ### v1.18
 
 - Added new scriptcommand to set a `Message of the Day`
