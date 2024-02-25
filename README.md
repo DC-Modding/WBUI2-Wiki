@@ -1,5 +1,11 @@
 ## WBUI2 Changelog
 
+### v1.20
+
+- Removed the `UpdateInterval` slider because it felt a bit obsolet
+- Added logic to send the Json in chunks of 6k characters which should improve reliability of bigger sized JSONs
+- Minor Logging tweaks
+
 ### v1.19
 
 - Minor logging tweaks
