@@ -1,5 +1,14 @@
 ## WBUI2 Changelog
 
+### v1.20
+
+- Switched the HTTP nodes to the new ones which WC deprecated. You should be able to use the UI via external JSON again
+- Deprecated the SaveGame. Using it to export the JSON didnt reflected the useability i intended. Current setups shouldnt be affected.
+- Added a new button named "Show Json" in the bottom right corner which is only visible as admin. It shows the raw JSON you can copy paste. This gives you the ability to edit the UI ingame with direct feedback on how it looks and easy exporting to the hosting service you prefer (github is recommended)
+- Removed the `UpdateInterval` slider within the "Admin Settings" UI
+- Added logic to send the Json in chunks of 6k characters which should improve reliability of bigger sized JSONs
+- Minor Logging tweaks
+
 ### v1.19
 
 - Minor logging tweaks
