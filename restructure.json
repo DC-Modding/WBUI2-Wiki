@@ -1,0 +1,79 @@
+{
+    "WBUI2": {
+        "settings": {
+            "OpenButton": 0,
+            "HideIcon": false,
+            "HideIconAfter": 60,
+            "IconURL": "placeholder",
+            "DisableIconText": false,
+            "IconPosition": 0,
+            "IconTextColor": 0,
+            "OpenOnStart": true,
+            "OpenOnStartOnlyNewPlayers": true,
+            "UpdateInterval": 12
+        },
+        "tabs": [
+            {
+                "index": 0,
+                "layout": 1,
+                "buttontext": "placeholder",
+                "title1": "placeholder",
+                "text1": "placeholder",
+                "imageurl": "placeholder"
+            },
+            {
+                "index": 1,
+                "layout": 2,
+                "buttontext": "placeholder",
+                "title1": "placeholder",
+                "title2": "placeholder",
+                "text1": "placeholder",
+                "text2": "placeholder",
+                "imageurl": "placeholder"
+            },
+            {
+                "index": 2,
+                "layout": 3,
+                "buttontext": "placeholder",
+                "title1": "placeholder",
+                "title2": "placeholder",
+                "title3": "placeholder",
+                "text1": "placeholder",
+                "text2": "placeholder",
+                "text3": "placeholder",
+                "imageurl": "placeholder"
+            },
+            {
+                "index": 3,
+                "layout": 4,
+                "buttontext": "placeholder",
+                "title1": "placeholder",
+                "title2": "placeholder",
+                "title3": "placeholder",
+                "title4": "placeholder",
+                "text1": "placeholder",
+                "text2": "placeholder",
+                "text3": "placeholder",
+                "text4": "placeholder",
+                "imageurl": "placeholder"
+            }
+        ],
+        "links": [
+            {
+                "index": 0,
+                "text": "placeholder",
+                "url": "placeholder"
+            },
+            {
+                "index": 1,
+                "text": "placeholder",
+                "url": "placeholder"
+            },
+            {
+                "index": 2,
+                "text": "placeholder",
+                "url": "placeholder"
+            }
+        ]
+    }
+}
