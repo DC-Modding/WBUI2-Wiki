@@ -1,5 +1,11 @@
 ## WBUI2 Changelog
 
+### v1.21
+
+- Added Missing URL to the Audit HTTP Function
+- Parsing out any `"` from the URL inputs to prevent request errors
+- Fix bug in the Updating sequence
+
 ### v1.20
 
 - Switched the HTTP nodes to the new ones which WC deprecated. You should be able to use the UI via external JSON again
