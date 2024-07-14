@@ -1,5 +1,10 @@
 ## WBUI2 Changelog
 
+### v1.22
+
+- Added Import button into the export menu
+- Made the `Show Json` button only visible if you are inside the Admin menu
+
 ### v1.21
 
 - Added Missing URL to the Audit HTTP Function
