@@ -1,5 +1,12 @@
 ## WBUI2 Changelog
 
+### v1.23
+
+- Rework of the codebase
+- Rework of the AdminSettingsUI
+- Restructure of the Json
+- A massive shoutout to DelilahEve, creator of <https://www.curseforge.com/ark-survival-ascended/mods/dino-depot>, for dedicating so much time and effort to WBUI2, even when she could have been focusing on her own projects. We appreciate you! <3
+
 ### v1.22
 
 - Added Import button into the export menu
@@ -128,10 +135,10 @@
 
 - Scrolling through the UI shouldnt affect the player (switching between FPV/TPV) anymore
 - Added new Scriptcommand to toggle DebugMode
--- cheat Scriptcommand WBUI2 debug
+	- cheat Scriptcommand WBUI2 debug
 - Changed the Textstyles to a bigger fontsize
 - You can use ARKML now to colorize the text  
-	- <RichColor Color=\"1,0,0,1\">Red Text</>  
+	- `<RichColor Color=\"1,0,0,1\">Red Text</>`  
 	- you HAVE to unescape the double quotes with a \  
 
 ### v1.6
@@ -143,7 +150,7 @@
 ### v1.5
 
 - Added colored text
-	- <TextStyle.Red>Red text</>
+	- `<TextStyle.Red>Red text</>`
 	- Available colors: Red, Green, Blue, Yellow, Orange, Violet, Black, White
 - Added Json settings
 	- IconPosition: 0/1/2/3 (Default:0) - Set the position of the Icon.
@@ -152,7 +159,6 @@
 		- 0=Light Blue, 1=Red, 2=Green, 3=Blue, 4=Yellow, 5=Orange, 6=Violet, 7=Black, 8=White
 - Improved download background image logic
 - On update via cheat scriptcommand WBUI2 update the UI shouldnt open the for the players anymore.
-- Added a Wiki https://github.com/DC-Modding/WBUI2-Wiki/wiki
 
 ### v1.4
 
@@ -167,7 +173,7 @@
 - adjusted background opacity for the other styles so it matches style "1"
 - added visualisation for a selected tab
 - added new JSON setting:
--- DisableIconText: true/false (Default:false) - If true the text "F1 for Info" will not be displayed.
+	- DisableIconText: true/false (Default:false) - If true the text "F1 for Info" will not be displayed.
 
 ### v1.2
 
