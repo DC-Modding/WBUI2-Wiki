@@ -5,7 +5,7 @@
 - Rework of the codebase
 - Rework of the AdminSettingsUI
 - Restructure of the Json
-- A massive shoutout to DelilahEve, creator of <https://www.curseforge.com/ark-survival-ascended/mods/dino-depot>, for dedicating so much time and effort to WBUI2, even when she could have been focusing on her own projects. We appreciate you! <3
+- A massive shoutout to DelilahEve, creator of [DinoDepot](https://www.curseforge.com/ark-survival-ascended/mods/dino-depot), for dedicating so much time and effort to WBUI2, even when she could have been focusing on her own projects. We appreciate you! <3
 
 ### v1.22
 
