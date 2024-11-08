@@ -1,5 +1,20 @@
 ## WBUI2 Changelog
 
+### v1.24
+
+- Internal Code Cleanup
+- New INI Option Added
+  - `ForceLoadSaveGame=True/False`
+    - When set to `True`, the mod will load settings from `WBUI2\Config.sav` and automatically set the `Use Ingame Settings` checkbox to `true`
+- SaveGame Creation
+  - The mod will now create a SaveGame file, located at `\ShooterGame\Saved\SaveGames\WBUI2\Config.sav`
+  - You can copy the `WBUI2` folder to another server's `SaveGames` folder to transfer settings
+  - Important: The mod will only use the SaveGame file if `ForceLoadSaveGame=True` is set in the `GameUserSettings.ini`
+- Options for Making Changes if you have set `ForceLoadSaveGame=True`
+  - If you wish to make changes to the settings, choose one of the following methods:
+    - Option 1: Use the Ingame Editor to adjust settings directly in-game
+    - Option 2: Set `ForceLoadSaveGame=False` in `GameUserSettings.ini` to load settings from the last specified source (either the INI URL, URL from Ingame Settings, or the Ingame Editor)
+
 ### v1.23
 
 - Rework of the codebase
