@@ -1,5 +1,14 @@
 ## WBUI2 Changelog
 
+### v1.25
+
+- Introduced SpecialTags for enhanced display functionality
+  - Replace plain text with a "SpecialTag" to show a special window instead
+  - Simply input the SpecialTag — additional text will break the functionality
+  - Available SpecialTags:
+    - `{playerlist}`: Displays a list of currently connected players
+
+
 ### v1.24
 
 - Internal Code Cleanup
