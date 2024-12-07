@@ -1,9 +1,15 @@
 ## WBUI2 Changelog
 
+### v1.26
+
+- Fixed that `OpenOnStart` would open the UI after death. It now should only open the UI after the player joins
+- Removed Backdrop if there is no text specified to improve image clarity of background images
+  - Is only applied to the `Single-Page-Layout`
+
 ### v1.25
 
 - Introduced SpecialTags for enhanced display functionality
-  - Replace plain text with a "SpecialTag" to show a special window instead
+  - SpecialTags replace the content of a section with a predefined window
   - Simply input the SpecialTag — additional text will break the functionality
   - Available SpecialTags:
     - `{playerlist}`: Displays a list of currently connected players
