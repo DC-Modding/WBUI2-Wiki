@@ -1,5 +1,9 @@
 ## WBUI2 Changelog
 
+### v1.27
+
+- Fixed `scriptcommand WBUI2 sendmessage -message="This is a test!" -duration=10 ` not sending to all players
+
 ### v1.26
 
 - Fixed that `OpenOnStart` would open the UI after death. It now should only open the UI after the player joins
