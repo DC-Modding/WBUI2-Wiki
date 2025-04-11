@@ -1,5 +1,17 @@
 ## WBUI2 Changelog
 
+### v1.28
+
+- Added new Scriptcommand for temporary MessageOfTheDay
+  - `cheat scriptcommand WBUI2 settempmotd -message="MOTD title\nMOTD message" -duration=15 -icon`
+    - The message needs to be within double qoutes `" "`
+	  - `-duration` specifies how long the MOTD is shown (in seconds)
+	  - The `-icon` flag is optional. If included, the message will display an embedded icon image (as defined in the `iconurl` setting)
+	  - This temporary MOTD remains active until the server restarts or is reset using the command below
+  - `cheat scriptcommand WBUI2 settempmotd reset`
+    - Restores the previous MOTD, removing the temporary one
+- Added the `-icon` tag functionality to the `cheat scriptcommand WBUI2 setmotd` scriptcommand
+
 ### v1.27
 
 - Fixed `scriptcommand WBUI2 sendmessage -message="This is a test!" -duration=10 ` not sending to all players
